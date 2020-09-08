@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  php:
+    container_name: php_container
+    build:
+      dockerfile: dockerfile
+      context: .
+    volumes:
+      # Update this to wherever you want VS Code to mount the folder of your project
+      - ..:/webApp:cached
+
+    command: sleep infinity

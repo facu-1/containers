@@ -1,0 +1,6 @@
+{
+    "name": "web-app-php",
+    "service": "php",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/webApp"
+}
